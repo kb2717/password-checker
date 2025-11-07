@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>🔑 Password Analysis</h1>
+        <p>Your Password: <b>{{ password }}</b></p>
+        <p>Strength: <b style="color: {{ color }};">{{ strength }}%</b></p>
+
+        {% if new_password %}
+        <h2>Suggested Stronger Password:</h2>
+        <p><b>{{ new_password }}</b></p>
+        <p>Strength: <b style="color: {{ new_color }};">{{ new_strength }}%</b></p>
+        {% endif %}
+
+        <a href="/" class="glow">Try Again</a>
+    </div>
+</body>
+</html>
+
