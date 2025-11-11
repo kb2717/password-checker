@@ -44,6 +44,14 @@ Letters (A–Z, a–z)
 Digits (0–9)
 Symbols (!@#$%^&*)
 
+Credits
+ICS project GROUP 7:
+-Khanak Bansal
+-Boby
+-Devansh Goyal
+-Shaurya Pratap Singh
+-Gugale Ninad Manoj
+
 Conclusion
 This project demonstrates:
 Real-time password analysis
